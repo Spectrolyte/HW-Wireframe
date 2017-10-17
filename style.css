@@ -5,15 +5,17 @@ body {
 }
 header, nav, footer {
 	margin: auto;
+	clear: right;
 	text-align: center;
 	background-color: #ebebeb;
 	width: 960px;
 }
 
 section {
+	display: inline-block;
 	text-align: center;
 	background-color: #ebebeb;
-	width: 495px;
+  	width: 495px;
 }
 
 article {
@@ -23,7 +25,9 @@ article {
 }
 
 aside {  
+	display: inline-block;
 	text-align: center;
 	background-color: #ebebeb;
-	width: 495px;
+  	width: 495px;
 }
+
