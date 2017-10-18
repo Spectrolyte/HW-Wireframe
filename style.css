@@ -18,13 +18,18 @@ header, nav, footer {
 	margin: 10px 0px;
 }
 
+.clearfix {
+	display: table;
+	width: 100%;
+	border-spacing: 10px
+}
+
 #section {
 	background-color: #EBEBEB;
 	color: #8B837F;
-	float: left;
 	padding: 20px;
-	margin: 10px 10px 10px 0px;
-	width: 59%;
+	margin: 10px;
+	display: table-cell;
 }
 
 article {
@@ -44,10 +49,9 @@ article {
 aside {  
 	background-color: #EBEBEB;
 	color: #8B837F;
-	float: right;
 	padding: 20px;
-	margin: 10px 0px 10px 10px;
-	width: 38%;
+	margin: 10px;
+	display: table-cell;
 }
 
 .clearfix::after {
