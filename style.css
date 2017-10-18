@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: gray;
+	background-color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
 	width: 960px;
@@ -12,37 +12,42 @@ body {
 }
 
 header, nav, footer {
-	background-color: lemonchiffon;
+	background-color: #EBEBEB;
+	color: #8B837F;
 	padding: 20px;
 	margin: 10px 0px;
 }
 
 #section {
-	background-color: blue;
+	background-color: #EBEBEB;
+	color: #8B837F;
 	float: left;
 	padding: 20px;
-	/*margin: 10px 10px 10px 0px;*/
-	width: 60%;
+	margin: 10px 10px 10px 0px;
+	width: 59%;
 }
 
 article {
-	background-color: dodgerblue;
+	background-color: #777777;
+	color: #C1C8D1;
 	padding: 10px 20px;
 	margin: 10px 0px;
 }
 
 #headings, #paragraph {
-	background-color: pink;
+	background-color: #EBEBEB;
+	color: #797777;
 	padding: 5px 10px;
 	margin: 10px 0px;
 }
 
 aside {  
-	background-color: green;
-	float: left;
+	background-color: #EBEBEB;
+	color: #8B837F;
+	float: right;
 	padding: 20px;
-	/*margin: 10px 0px 10px 10px;*/
-	width: 40%;
+	margin: 10px 0px 10px 10px;
+	width: 38%;
 }
 
 .clearfix::after {
