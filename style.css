@@ -30,7 +30,7 @@ header, nav, footer {
 	color: #8B837F;
 	padding: 20px;
 	margin: 10px 10px 10px 0px;
-	width: 640px;
+	width: 560px;
 	float: left;
 	/*display: table-cell;*/
 }
@@ -54,7 +54,7 @@ aside {
 	color: #8B837F;
 	padding: 20px 20px 257px 20px;
 	margin: 10px 0px 10px 10px;
-	width: 300px;
+	width: 380px;
 	float: right;
 	/*display: table-cell;*/
 }
