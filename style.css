@@ -1,33 +1,52 @@
-body {
-	background-color: #777;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 18px;
-}
-header, nav, footer {
-	margin: auto;
-	clear: right;
-	text-align: center;
-	background-color: #ebebeb;
-	width: 960px;
+* {
+  box-sizing: border-box;
+  text-align: center;
 }
 
-section {
-	display: inline-block;
-	text-align: center;
-	background-color: #ebebeb;
-  	width: 495px;
+body {
+	background-color: gray;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	width: 960px;
+	height: 495px;
+}
+header, nav, footer {
+	background-color: lemonchiffon;
+}
+
+#section {
+	background-color: blue;
+	float: left;
+	width: 576px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 article {
-	text-align: center;
-	background-color: #777;
-	width: 495px;
+	background-color: dodgerblue;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	padding top: 20px;
+	margin: 10px 0px;
+}
+
+#headings, #paragraph {
+	background-color: pink;
+	padding: 1px 10px;
+	margin: 10px 0px;
 }
 
 aside {  
-	display: inline-block;
-	text-align: center;
-	background-color: #ebebeb;
-  	width: 495px;
+	background-color: green;
+	float: left;
+	width: 384px;
 }
 
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
