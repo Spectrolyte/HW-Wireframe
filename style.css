@@ -10,39 +10,39 @@ body {
 	width: 960px;
 	height: 495px;
 }
+
 header, nav, footer {
 	background-color: lemonchiffon;
+	padding: 20px;
+	margin: 10px 0px;
 }
 
 #section {
 	background-color: blue;
 	float: left;
-	width: 576px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 20px;
-	padding-top: 20px;
+	padding: 20px;
+	/*margin: 10px 10px 10px 0px;*/
+	width: 60%;
 }
 
 article {
 	background-color: dodgerblue;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 20px;
-	padding top: 20px;
+	padding: 10px 20px;
 	margin: 10px 0px;
 }
 
 #headings, #paragraph {
 	background-color: pink;
-	padding: 1px 10px;
+	padding: 5px 10px;
 	margin: 10px 0px;
 }
 
 aside {  
 	background-color: green;
 	float: left;
-	width: 384px;
+	padding: 20px;
+	/*margin: 10px 0px 10px 10px;*/
+	width: 40%;
 }
 
 .clearfix::after {
